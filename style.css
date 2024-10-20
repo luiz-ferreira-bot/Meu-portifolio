@@ -1,0 +1,12 @@
+body{
+    background: url(img/fundo-madeira.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center ; */
+    height: 97vh;
+}
+
+img{
+    margin: auto;
+    display: block;
+}
