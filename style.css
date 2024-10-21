@@ -46,15 +46,15 @@ iframe#tela {
     /* border-radius: 2px; */
 }
 section#redes-social{
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     text-align: right;
     
-    padding-top: 200px;
+    /* padding-top: 200px; */
 }
 
 section#redes-social img{
-    width: 60px;
+    width: 50px;
     margin: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px black;    
