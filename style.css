@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 
 }
 
@@ -42,5 +43,32 @@ iframe#tela {
     left: 22px;
     width: 267px;
     height: 472px;
-    border-radius: 2px;
+    /* border-radius: 2px; */
+}
+section#redes-social{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    
+    padding-top: 200px;
+}
+
+section#redes-social img{
+    width: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px black;    
+}
+
+section#redes-social img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    box-shadow: 5px 5px 10px black;
+    transform: translate(-3px, -3px);
+    transition: transform 0.3s, border .5s ;
+    
+}
+
+a{
+    width: 100%;
+    height: ;
 }
